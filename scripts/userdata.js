@@ -1,7 +1,6 @@
 function primeData() {
     var submitButton = document.getElementById("submit-button");
     submitButton.addEventListener("click", saveData, false);
-    displayData();
 }
 
 function saveData() {
@@ -13,16 +12,6 @@ function saveData() {
 
     username.value = "";
     password.value = "";
-}
-
-function displayData() {
-    var toDisplay = document.getElementById("display-data");
-    toDisplay.innerHTML = "";
-    for(var i = 0; i < sessionStorage.length; i++) {
-        var tempKey = sessionStorage.key(0);
-        var finalKey = sessionStorage.getItem(tempKey);
-        toDisplay.innerHTML = "Hi, " +tempKey;
-    }
 }
 
 function clearData() {

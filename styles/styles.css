@@ -3,6 +3,12 @@
     color: black;
 }
 
+#undecorated-link-bold {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
 .form-signin {
     max-width: 330px;
     padding: 15px;
@@ -23,3 +29,31 @@
     border-top-left-radius: 0;
     border-top-right-radius: 0;
 }
+
+.marquee {
+    --gap: 1rem;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    user-select: none;
+    gap: var(--gap);
+    font-weight: bold;
+  }
+  
+  .marquee__content {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-around;
+    gap: var(--gap);
+    min-width: 100%;
+    animation: scroll 25s linear infinite;
+  }
+  
+  @keyframes scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(calc(-100% - var(--gap)));
+    }
+  }
