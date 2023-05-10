@@ -11,7 +11,7 @@
 
 <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-  
+    <script type="text/javascript" src="scripts/userdata.js"></script>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
@@ -56,16 +56,22 @@
                 <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
                 <label for="floatingPassword">Password</label>
               </div>
-          
               <div class="checkbox mb-3">
                 <label>
                   <input type="checkbox" value="remember-me"> Remember me
                 </label>
               </div>
-              <button class="w-100 btn btn-lg btn-dark" type="submit">Sign in</button>
+              <button class="w-100 btn btn-lg btn-dark" type="submit" id="submit-button">Sign in</button>
               <button class="w-100 btn btn-sm btn-link" type="register" id="undecorated-link">Register</button>
+              <button class="w-100 btn btn-sm btn-link" type="clear" id="undecorated-link" onclick="clearData()">clear</button>
             </form>
           </main>
+    </div>
+
+    <div class="container">
+      <section id="display-data">
+
+      </section>
     </div>
     
 
