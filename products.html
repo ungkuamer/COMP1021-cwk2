@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="src/logo.svg" alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="aboutus.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="team.html">The Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contactus.html">Contact Us</a>
+              </li>
+            </ul>
+            <button type="button" onclick="location.href='joinus.html';" class="btn btn-dark">Join Us</button>
+            <button type="button" onclick="location.href='signin.html';" class="btn btn-link" id="undecorated-link">Login</button>
+          </div>
+        </div>
+    </nav>
+
+    <div>
+        <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+            <h1 class="display-4 fw-normal">Products</h1>
+            <p class="fs-5 text-body-secondary fw-light">
+                all you can imagine in one place
+            </p>
+        </div>
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+                <div class="col">
+                  <div class="card mb-4 rounded-3 shadow-sm">
+                    <div class="card-header py-3 text-bg-dark">
+                      <h4 class="my-0 fw-normal">Parts Replacement</h4>
+                    </div>
+                    <div class="card-body">
+                      <h1 class="card-title pricing-card-title"><small class="text-body-secondary fs-6 fw-light">from </small>£50</h1>
+                      <ul class="list-unstyled mt-3 mb-4">
+                        <li>Main Processor</li>
+                        <li>Graphical Interface</li>
+                        <li>Primary Motor</li>
+                        <li>Central Control Unit</li>
+                      </ul>
+                      <button type="button" class="w-100 btn btn-lg btn-outline-dark">Buy Now</button>
+                      <button type="button" class="btn btn-sm btn-outline-ligh">See More</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card mb-4 rounded-3 shadow-sm">
+                    <div class="card-header py-3 text-bg-dark">
+                      <h4 class="my-0 fw-normal">Complete Systems</h4>
+                    </div>
+                    <div class="card-body">
+                      <h1 class="card-title pricing-card-title"><small class="text-body-secondary fs-6 fw-light">from </small>£1500</h1>
+                      <ul class="list-unstyled mt-3 mb-4">
+                        <li>Prototype System</li>
+                        <li>Battle System</li>
+                        <li>Commercial System</li>
+                        <li>Starter System</li>
+                      </ul>
+                      <button type="button" class="w-100 btn btn-lg btn-outline-dark">Buy Now</button>
+                      <button type="button" class="btn btn-sm btn-outline-ligh">See More</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card mb-4 rounded-3 shadow-sm">
+                    <div class="card-header py-3 text-bg-dark">
+                      <h4 class="my-0 fw-normal">Digital Services</h4>
+                    </div>
+                    <div class="card-body">
+                      <h1 class="card-title pricing-card-title"><small class="text-body-secondary fs-6 fw-light">from </small>£10</h1>
+                      <ul class="list-unstyled mt-3 mb-4">
+                        <li>AI Models</li>
+                        <li>Consultations</li>
+                        <li>HUD Modifications</li>
+                        <li>System Tuning</li>
+                      </ul>
+                      <button type="button" class="w-100 btn btn-lg btn-outline-dark">Buy Now</button>
+                      <button type="button" class="btn btn-sm btn-outline-ligh">See More</button>
+                    </div>
+                      </div>
+                  </div>
+            </div> 
+        </div>
+    </div>
+
+    <div class="container fixed-bottom">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <span class="mb-3 mb-md-0 text-body-secondary">Ungku Amer &copy; 2023 COMP1021 Uni of Leeds</span>
+          </div>
+        </footer>
+      </div>
+</body>
+</html>
