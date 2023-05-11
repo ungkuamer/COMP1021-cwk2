@@ -7,7 +7,7 @@ function statusDisplay() {
         `;
     } else {
         var toWrite = `
-        <button type="button" onclick="location.href='joinus.html';" class="btn btn-dark disabled">Join Us</button>
+        <button type="button" onclick="location.href='joinus.html';" class="btn btn-dark">Join Us</button>
         <button type="button" onclick="location.href='signin.html';" class="btn btn-link" id="undecorated-link">Login</button>
         `;
     }
