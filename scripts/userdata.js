@@ -15,4 +15,3 @@ function saveData() {
 }
 
 window.addEventListener("load", primeData, false);
-

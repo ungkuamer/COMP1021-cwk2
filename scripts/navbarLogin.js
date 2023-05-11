@@ -1,7 +1,7 @@
 function statusDisplay() {
-    if (sessionStorage.length>0) {
+    if (sessionStorage.length > 0) {
         var username = sessionStorage.key(0);
-        var toWrite = "<button type='button' class='btn btn-link' id='undecorated-link-bold'>"+"Hello, "+username+"!"+"</button>";
+        var toWrite = "<button type='button' class='btn btn-link' id='undecorated-link-bold'>" + "Hello, " + username + "!" + "</button>";
         toWrite += `
         <button type="button" class="btn btn-outline-dark" onclick="clearData()">Logout</button>
         `;
@@ -17,4 +17,3 @@ function statusDisplay() {
 
 var userState = document.getElementById("user-login-state");
 statusDisplay();
-
