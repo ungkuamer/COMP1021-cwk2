@@ -14,10 +14,5 @@ function saveData() {
     password.value = "";
 }
 
-function clearData() {
-    sessionStorage.clear();
-    location.reload();
-}
-
 window.addEventListener("load", primeData, false);
 

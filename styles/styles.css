@@ -47,6 +47,7 @@
     gap: var(--gap);
     min-width: 100%;
     animation: scroll 25s linear infinite;
+    text-decoration: none;
   }
   
   @keyframes scroll {
@@ -57,3 +58,11 @@
       transform: translateX(calc(-100% - var(--gap)));
     }
   }
+
+.wave-top {
+    position: absolute;
+    top: 500;
+    left: 0;
+    width: 100%;
+    transform: rotate(180deg);
+}
